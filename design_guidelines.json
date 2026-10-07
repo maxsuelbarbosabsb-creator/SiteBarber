@@ -1,0 +1,394 @@
+{
+  "project_name": "Dhow Barbearia",
+  "app_type": "landing_page",
+  "locale": "pt-BR",
+  "currency": "BRL (R$)",
+  "contact": {
+    "whatsapp_raw": "5562982564548",
+    "whatsapp_formatted": "(62) 98256-4548",
+    "whatsapp_link_base": "https://wa.me/5562982564548"
+  },
+  "aesthetic_archetype": "ARCHETYPE 5: LUXURY & CRAFT (Old-Money Classic Barber meets Kinetic Editorial)",
+  "theme": "dark",
+  "colors": {
+    "palette": {
+      "charcoal_base": "#0B0C0E",
+      "charcoal_elevated": "#14161B",
+      "charcoal_card": "#181B22",
+      "charcoal_border": "#282C37",
+      "gold_primary": "#D4AF37",
+      "gold_bright": "#F3CE63",
+      "gold_subtle": "#8C7326",
+      "leather_accent": "#844E28",
+      "cream_text": "#F5F3EF",
+      "cream_muted": "#A7A59E",
+      "whatsapp_green": "#25D366"
+    },
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#0B0C0E",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A7A59E",
+        "roles": {
+          "link": "#D4AF37",
+          "error": "#EF4444",
+          "success": "#22C55E",
+          "accent_highlight": "#F3CE63"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#14161B",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A7A59E",
+        "roles": {
+          "link": "#D4AF37",
+          "error": "#EF4444",
+          "success": "#22C55E"
+        }
+      },
+      {
+        "name": "card_elevated",
+        "kind": "solid",
+        "bg": "#181B22",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A7A59E",
+        "roles": {
+          "link": "#D4AF37",
+          "price_tag": "#F3CE63"
+        }
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#F5F3EF",
+        "on_bg": "#0B0C0E",
+        "on_bg_muted": "#4A4D55",
+        "roles": {
+          "link": "#844E28",
+          "error": "#B91C1C",
+          "success": "#15803D"
+        }
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#0B0C0E",
+        "guarantee": "scrim: linear-gradient(to right, rgba(11,12,14,0.92) 0%, rgba(11,12,14,0.70) 55%, rgba(11,12,14,0.40) 100%), linear-gradient(to top, rgba(11,12,14,1) 0%, transparent 60%)",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#D5D3CC",
+        "roles": {
+          "link": "#F3CE63",
+          "error": "#FCA5A5",
+          "success": "#86EFAC"
+        }
+      },
+      {
+        "name": "booking_drawer",
+        "kind": "glass",
+        "contrast_against": "#14161B",
+        "guarantee": "backdrop-blur-2xl bg-[#14161B]/95 border border-[#D4AF37]/20 shadow-[0_20px_60px_rgba(0,0,0,0.8)]",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A7A59E",
+        "roles": {
+          "link": "#D4AF37",
+          "accent_tag": "#F3CE63"
+        }
+      },
+      {
+        "name": "gold_badge",
+        "kind": "solid",
+        "bg": "#2A2312",
+        "on_bg": "#F3CE63",
+        "on_bg_muted": "#D4AF37"
+      },
+      {
+        "name": "whatsapp_float",
+        "kind": "solid",
+        "bg": "#25D366",
+        "on_bg": "#0B0C0E",
+        "on_bg_muted": "#0B0C0E"
+      }
+    ],
+    "accent": "#D4AF37",
+    "on_accent": "#0B0C0E"
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Playfair Display Variable, Georgia, serif",
+      "body": "Instrument Sans Variable, -apple-system, BlinkMacSystemFont, sans-serif",
+      "mono_accent": "JetBrains Mono Variable, monospace"
+    },
+    "scale_px": {
+      "display": 60,
+      "h1": 48,
+      "h2": 36,
+      "h3": 24,
+      "h4": 20,
+      "body": 16,
+      "caption": 14
+    },
+    "rules": {
+      "headlines": "font-heading tracking-tight leading-tight uppercase-accents",
+      "body": "font-sans leading-relaxed tracking-normal",
+      "price_numbers": "font-heading font-bold tracking-tight text-amber-300",
+      "labels": "font-mono uppercase text-xs tracking-[0.25em] text-[#D4AF37]"
+    }
+  },
+  "entry_surfaces": {
+    "/": "split cinematic hero — left: branded monogram emblem + masked kinetic typography + instant booking CTA + WhatsApp quick-trigger; right: interactive layered barber visual card with live opening status indicator"
+  },
+  "brand_identity": {
+    "name": "Dhow Barbearia",
+    "tagline": "Corte de Respeito. Tradição e Navalha Afiada.",
+    "sub_tagline": "A barbearia onde o clássico encontra a precisão moderna. Atendimento exclusivo em Goiânia com agendamento direto e sem espera.",
+    "monogram_concept": "Monogram 'D' stylized as a sharp straight-razor silhouette intertwined with a nautical dhow sail curve, finished in antique brass gradient stroke."
+  },
+  "core_services": [
+    {
+      "id": "corte",
+      "name": "Corte Masculino",
+      "price": 25,
+      "price_display": "R$ 25",
+      "duration": "30 min",
+      "description": "Degradê impecável, navalhado ou tesoura clássica. Finalização com pomada modeladora e alinhamento milimétrico dos fios.",
+      "popular": false,
+      "badge": "Mais pedido no dia a dia"
+    },
+    {
+      "id": "barba",
+      "name": "Barba Terapia & Navalha",
+      "price": 15,
+      "price_display": "R$ 15",
+      "duration": "25 min",
+      "description": "Desenho e alinhamento com toalha quente aromatizada, hidratação prévia com óleo artesanal e navalha descartável.",
+      "popular": false,
+      "badge": "Tradição & Toalha Quente"
+    },
+    {
+      "id": "combo",
+      "name": "Combo Dhow (Corte + Barba)",
+      "price": 35,
+      "price_display": "R$ 35",
+      "duration": "50 min",
+      "description": "A experiência completa de transformação: corte na tesoura ou máquina + barba completa com toalha quente e pomada premium. Economia de R$ 5.",
+      "popular": true,
+      "badge": "Melhor Custo-Benefício • Destaque da Casa"
+    }
+  ],
+  "image_urls": {
+    "hero_barber": {
+      "url": "https://images.pexels.com/photos/9992819/pexels-photo-9992819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Barbeiro executando corte preciso de cabelo na Dhow Barbearia",
+      "category": "hero",
+      "usage": "Hero right visual card & background layered backdrop"
+    },
+    "service_haircut": {
+      "url": "https://images.pexels.com/photos/32329615/pexels-photo-32329615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Corte de cabelo estilizado masculino",
+      "category": "services",
+      "usage": "Corte Masculino (R$ 25) card media preview"
+    },
+    "service_beard": {
+      "url": "https://images.pexels.com/photos/5853394/pexels-photo-5853394.jpeg",
+      "alt": "Alinhamento e corte de barba na tesoura e navalha",
+      "category": "services",
+      "usage": "Barba Terapia (R$ 15) card media preview"
+    },
+    "service_combo": {
+      "url": "https://images.pexels.com/photos/3998414/pexels-photo-3998414.jpeg",
+      "alt": "Homem com barba e cabelo impecavelmente alinhados",
+      "category": "services",
+      "usage": "Combo Dhow Corte + Barba (R$ 35) highlight visual"
+    },
+    "interior_craft": {
+      "url": "https://images.pexels.com/photos/20405694/pexels-photo-20405694.jpeg",
+      "alt": "Parede com instrumentos clássicos e decoração vintage da barbearia",
+      "category": "gallery",
+      "usage": "About section ambient spotlight photo"
+    },
+    "interior_leather_chairs": {
+      "url": "https://images.pexels.com/photos/4969838/pexels-photo-4969838.jpeg",
+      "alt": "Cadeiras de couro e espelhos clássicos de barbearia",
+      "category": "gallery",
+      "usage": "Atmosphere and spatial gallery spotlight"
+    },
+    "barber_shave_detail": {
+      "url": "https://images.pexels.com/photos/9153970/pexels-photo-9153970.jpeg",
+      "alt": "Navalha de precisão em ação na barba",
+      "category": "gallery",
+      "usage": "Spotlight craftsmanship gallery detail"
+    }
+  },
+  "interactive_booking_system": {
+    "flow_description": "Interactive multi-step intuitive booking widget. Client selects service (Corte R$25, Barba R$15, Combo R$35), chooses preferred barber (Dhow - Mestre da Casa or Lucas Navalha), picks date (today, tomorrow, or calendar date), chooses available time slot (09:00 to 20:00 with 30m steps), types their name & observation, and clicks 'Confirmar no WhatsApp'.",
+    "whatsapp_message_template": "Olá, Dhow! Gostaria de agendar um horário:\n\n👤 *Cliente:* {name}\n💈 *Serviço:* {service} ({price})\n✂️ *Barbeiro:* {barber}\n📅 *Data:* {date_pt_br}\n⏰ *Horário:* {time}\n📝 *Obs:* {notes}\n\nPodemos confirmar?",
+    "instant_feedback": "Shows real-time calculated total, summary card, and triggers Sonner toast on WhatsApp dispatch. Also saves booking history in local storage for quick re-booking."
+  },
+  "layout_architecture": {
+    "navigation_header": {
+      "type": "Crystal Glass Sticky Header",
+      "classes": "fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[#0B0C0E]/80 border-b border-[#D4AF37]/15 px-6 py-4 transition-all duration-300",
+      "elements": [
+        "Brand Logo: 'DHOW' in serif display font with gold razor crown mark",
+        "Navigation items: 'Serviços & Preços', 'Experiência', 'Galeria', 'Sobre o Dhow', 'Localização'",
+        "CTA Button: 'Agendar Horário' (gold gradient button with razor icon)",
+        "Mobile Menu: Animated Sheet drawer with quick WhatsApp link and one-touch booking"
+      ]
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "name": "Kinetic Hero Section",
+        "layout": "Asymmetric 12-column split hero",
+        "features": [
+          "Overline: '★ BARBEARIA CLÁSSICA & CONTEMPORÂNEA — GOIÂNIA'",
+          "H1 Heading with Masked Kinetic reveal: 'ESTILO NÃO SE NEGOCIA. NAVALHA DE MESTRE.'",
+          "Subheading: 'Corte por R$ 25, Barba por R$ 15 e Combo por R$ 35. Agendamento instantâneo via WhatsApp sem burocracia.'",
+          "Interactive Action Bar: [Agendar Agora] (opens booking modal/scroll) + [Chamar no Zap Direto] with online pulsing dot",
+          "Live Status Pill: '● Barbearia Aberta Hoje até às 20h'",
+          "Hero Visual: Interactive spotlight card with gold perimeter shimmer and hover depth"
+        ]
+      },
+      {
+        "id": "editorial_marquee",
+        "name": "Slow Editorial Ribbon Marquee",
+        "style": "Low-contrast gold & charcoal editorial ribbon moving at gentle stream velocity",
+        "items": [
+          "CORTE MASCULINO R$ 25",
+          "•",
+          "BARBA COM TOALHA QUENTE R$ 15",
+          "•",
+          "COMBO COMPLETO R$ 35",
+          "•",
+          "NAVALHA DESCARTÁVEL & HIGIENE TOTAL",
+          "•",
+          "CERVEJA GELADA & CAFÉ EXPRESSO",
+          "•",
+          "SEM FILAS — AGENDAMENTO RÁPIDO NO WHATSAPP",
+          "•",
+          "DHOW BARBEARIA"
+        ]
+      },
+      {
+        "id": "services",
+        "name": "Bento Services & Pricing Grid",
+        "layout": "Bento 3-card asymmetric showcase with price hierarchy",
+        "items": [
+          {
+            "service": "Corte Masculino",
+            "price": "R$ 25",
+            "grid_span": "col-span-12 md:col-span-4",
+            "visual_perks": ["Degradê / Fade", "Tesoura Clássica", "Lavagem & Finalização", "Pomada Matte/Brilho"]
+          },
+          {
+            "service": "Barba Terapia",
+            "price": "R$ 15",
+            "grid_span": "col-span-12 md:col-span-4",
+            "visual_perks": ["Toalha Quente", "Óleo Hidratante", "Alinhamento no Navalhete", "Pós-Barba Refrescante"]
+          },
+          {
+            "service": "Combo Dhow (Corte + Barba)",
+            "price": "R$ 35",
+            "grid_span": "col-span-12 md:col-span-4",
+            "highlight": true,
+            "badge": "★ MAIS ESCOLHIDO",
+            "visual_perks": ["Corte Completo + Barboterapia", "Economia Direta no Bolso", "Finalização Premium", "Bebida Cortesia"]
+          }
+        ]
+      },
+      {
+        "id": "booking_section",
+        "name": "Agendamento Interativo & WhatsApp Dispatch",
+        "layout": "Interactive Card Form with Live WhatsApp Link Generator",
+        "features": [
+          "Interactive Service Selector with instant visual toggle & price check",
+          "Date picker with quick buttons (Hoje, Amanhã, Sábado) and full calendar option",
+          "Time slot pill selector with busy/available simulation",
+          "Client name and optional phone/notes input",
+          "Live preview receipt showing formatted message ready to send",
+          "Instant one-click button: 'Confirmar e Enviar para o WhatsApp (62) 98256-4548'"
+        ]
+      },
+      {
+        "id": "gallery_experience",
+        "name": "Galeria & Atmosfera",
+        "layout": "Curated 3-column spotlight gallery with interactive zoom and vintage tint filters",
+        "features": [
+          "Filtered image cards showcasing cuts, beard detailing, and shop vibe",
+          "Interactive before/after or craftsmanship highlight",
+          "Quotes from frequent clients"
+        ]
+      },
+      {
+        "id": "about_barbers",
+        "name": "O Espaço & Barbeiros",
+        "layout": "Split editorial biography",
+        "content": "A Dhow nasceu da obsessão pela arte da barbearia tradicional. Aqui, cada cliente tem atenção individual, pontualidade britânica e o melhor custo-benefício de Goiás. Ambiente climatizado, som ambiente de bom gosto, café passado na hora e cerveja trincando."
+      },
+      {
+        "id": "location_hours",
+        "name": "Horários, Endereço & Contato",
+        "layout": "Interactive contact panel + Google Maps shortcut",
+        "details": {
+          "hours": "Segunda a Sábado: 09:00 às 20:00 | Domingo: Fechado",
+          "location": "Goiânia - GO (Atendimento com agendamento prévio)",
+          "whatsapp": "(62) 98256-4548"
+        }
+      },
+      {
+        "id": "footer",
+        "name": "Cinematic Giant Typography Footer",
+        "layout": "High contrast dark footer with oversized 'DHOW' typographic watermark",
+        "features": [
+          "Massive display title 'DHOW'",
+          "Quick links to book or chat",
+          "Copyright & Made with Craftsmanship badge"
+        ]
+      }
+    ]
+  },
+  "motion_and_interactions": {
+    "engine": "framer-motion / motion (bundled in template)",
+    "smooth_scroll": "Lenis smooth scroll integration pattern",
+    "effects": [
+      {
+        "name": "Masked Hero Text Reveal",
+        "technique": "overflow-hidden container with motion.span y: ['100%', '0%'] staggered at 0.15s easeOut"
+      },
+      {
+        "name": "Bento Card Gold Shimmer",
+        "technique": "border border-amber-500/20 hover:border-amber-400/60 hover:shadow-[0_0_25px_rgba(212,175,55,0.15)] transition-all duration-300"
+      },
+      {
+        "name": "WhatsApp Floating Button",
+        "technique": "Fixed bottom-6 right-6 z-40 flex items-center gap-2 bg-[#25D366] text-black font-semibold px-4 py-3 rounded-full shadow-[0_10px_25px_rgba(37,211,102,0.4)] hover:scale-105 active:scale-95 transition-transform"
+      },
+      {
+        "name": "Slot Selection Kinetic Trigger",
+        "technique": "layoutId animated highlight pill under active time/service pills"
+      }
+    ]
+  },
+  "accessibility": {
+    "contrast_ratio": "Exceeds WCAG AA (4.5:1 for body copy and 3:1 for large display elements)",
+    "focus_rings": "focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black",
+    "prefers_reduced_motion": "All motion.div elements wrapped with fallback or reduced motion queries",
+    "testing_attributes": "All buttons, inputs, links, and cards MUST have data-testid attributes (e.g. data-testid='booking-submit-button', data-testid='service-card-combo')"
+  },
+  "instructions_to_main_agent": [
+    "1. The template is farm-ts (FastAPI backend + Vite/React 19 frontend). Use frontend/src/index.css for Tailwind v4 tokens and theme variables.",
+    "2. In frontend/src/index.css, import '@fontsource-variable/playfair-display' and '@fontsource-variable/instrument-sans' and '@fontsource-variable/jetbrains-mono'. Set --font-heading: 'Playfair Display Variable', serif; and --font-sans: 'Instrument Sans Variable', sans-serif;.",
+    "3. Set <html class='dark'> in frontend/index.html to ensure dark mode by default with luxurious deep charcoal and gold accents.",
+    "4. Prices MUST be explicitly featured: Corte R$25, Barba R$15, Combo R$35. Do not alter these prices.",
+    "5. WhatsApp booking MUST target phone number 5562982564548 with a clean formatted message encoding (encodeURIComponent).",
+    "6. Include both the full-featured Interactive Booking Section and the Floating WhatsApp Quick Trigger.",
+    "7. Implement sound interactive feedback: Sonner toast on booking click ('Abrindo WhatsApp para confirmar seu agendamento...'), copy toast for phone number, and service selector calculator.",
+    "8. Add data-testid to every interactive element (data-testid='btn-book-hero', data-testid='input-client-name', data-testid='select-service', data-testid='btn-whatsapp-floating', etc.).",
+    "9. Use Lucide icons (Scissors, Sparkles, Clock, Calendar, MapPin, Phone, MessageCircle, Star, Check, ArrowRight, ShieldCheck, User).",
+    "10. Ensure the website has rich Portuguese (pt-BR) copy tailored for a premium Brazilian barbershop customer experience."
+  ]
+}
